@@ -59,7 +59,7 @@
               var target = $(this);
               var values = target.data("show").split("=")[1].split(",");
               
-              if (values.indexOf(value) >= 0) {
+              if ($.inArray(value, values) >= 0) {
                 target.show();
               } else {
                 target.hide();
