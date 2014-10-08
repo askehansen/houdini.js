@@ -2,7 +2,7 @@
 
 jQuery plugin to show/hide elements according to the state of checkbox/radio/select inputs
 
-Tested in IE 9, Chrome, Firefox, Safari
+Works with IE 9, Chrome, Firefox, Safari
 
 ## Installation
 
