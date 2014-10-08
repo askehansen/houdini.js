@@ -64,3 +64,11 @@ We coud also use radio buttons
 When using select or radio, we need to specify both the *name* and the *value* of the input: `payment=credit_card`
 
 Notice we can also use multiple values: `payment=credit_card,gift_card`
+
+## Contributing
+
+1. Fork it ( https://github.com/askehansen/houdini.js/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
