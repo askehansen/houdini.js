@@ -2,13 +2,15 @@
 
 jQuery plugin to show/hide elements according to the state of checkbox/radio/select inputs
 
+Tested in IE 9, Chrome, Firefox, Safari
+
 ## Installation
 
 Just include /src/houdini.js in your application
 
-Requires jQuery
-
 Or with bower `houdini`
+
+Requires jQuery 1.7.1
 
 ## Usage
 
