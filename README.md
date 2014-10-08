@@ -65,6 +65,8 @@ When using select or radio, we need to specify both the *name* and the *value* o
 
 Notice we can also use multiple values: `payment=credit_card,gift_card`
 
+Also check out the sample folder
+
 ## Contributing
 
 1. Fork it ( https://github.com/askehansen/houdini.js/fork )
