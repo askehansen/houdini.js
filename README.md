@@ -49,7 +49,7 @@ We want to show a message depending on what payment type the user choose
 <h1 data-show="payment=credit_card">Credit card</h1>
 <h1 data-show="payment=gift_card">Gift card</h1>
 <h1 data-show="payment=credit_card">Bank transfer</h1>
-<p data-show="payment=credit_card,gift_card">Your order will shipped immediately</p>
+<p data-show="payment=credit_card,gift_card">Your order will ship immediately</p>
 <p data-show="payment=transfer">Your order will ship when we receive your payment</p>
 ```
 
