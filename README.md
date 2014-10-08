@@ -8,6 +8,8 @@ Just include /src/houdini.js in your application
 
 Requires jQuery
 
+Or with bower `houdini`
+
 ## Usage
 
 Lets say we have a form with some elements we want to show/hide
