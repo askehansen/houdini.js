@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Show hide</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/houdini.js"></script>
+  <script>
+    $("form").houdini();
+  </script>
+</head>
+<body>
+  <form>
+    <h4>Checkbox</h4>
+
+    <input type="checkbox" name="hello" />
+    <span data-show="hello">Hello world</span>
+
+    <hr />
+    <h4>Select</h4>
+
+    <select name="select">
+      <option>select</option>
+      <option value="foo">foo</option>
+      <option value="bar">bar</option>
+      <option value="foo-bar">foo-bar</option>
+    </select>
+    <span data-show="select=foo,foo-bar">foo</span>
+    <span data-show="select=bar,foo-bar">bar</span>
+  
+    <hr>
+    <h4>Radio</h4>
+
+    <input type="radio" name="radio"> radio
+    <input type="radio" name="radio" value="foo"> foo
+    <input type="radio" name="radio" value="bar"> bar
+    <input type="radio" name="radio" value="foo-bar"> foo-bar
+
+    <br>
+
+    <span data-show="radio=foo,foo-bar">foo</span>
+    <span data-show="radio=bar,foo-bar">bar</span>
+  </form>
+</body>
+</html>
