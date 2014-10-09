@@ -1,6 +1,6 @@
 # houdini.js
 
-jQuery plugin to show/hide elements according to the state of checkbox/radio/select inputs
+jQuery plugin to show elements depending on the state of checkbox/radio/select inputs
 
 ## Installation
 
@@ -23,7 +23,7 @@ $("form").houdini();
 
 ### Checkbox
 
-We want to be able to add a shipping address to our form
+We want to be able to add a shipping address to our form:
 
 ```html
 <input type="checkbox" name="shipping_address">
@@ -39,7 +39,7 @@ Notice the naming `shipping_address`
 
 ### Select/Radio
 
-We want to show a message depending on what payment type the user choose
+We want to show a message depending on what payment type the user choose:
 
 ```html
 <select name="payment">
@@ -55,7 +55,7 @@ We want to show a message depending on what payment type the user choose
 <p data-show="payment=transfer">Your order will ship when we receive your payment</p>
 ```
 
-We coud also use radio buttons
+We coud also use radio buttons:
 
 ```html
 <div><input type="radio" name="payment" value="credit_card"> Credit card</div>
