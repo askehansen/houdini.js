@@ -73,8 +73,10 @@
               
               if ($(this).is(":checked")) {
                 targets.show();
+                targets.trigger('hn.show');
               } else {
                 targets.hide();
+                targets.trigger('hn.hide');
               }
             });
         },
