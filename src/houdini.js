@@ -61,8 +61,10 @@
               
               if ($.inArray(value, values) >= 0) {
                 target.show();
+                target.trigger('hn.show');
               } else {
                 target.hide();
+                target.trigger('hn.hide');
               }
             });
         },
